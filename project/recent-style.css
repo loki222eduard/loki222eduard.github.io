@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+
+}
+body{
+	background: url(img/recentjob.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.send-subit a{
+	transition: 1s;
+}
+.top-rectangle{
+	width: 1362px;
+	height: 70px;
+    background-color: #6D2335;
+	display: inline-block;
+}
+.teg{
+	position: fixed;
+	width: 209px;
+	position: absolute;
+	right: 348px;
+	border-right: 37px solid transparent;
+	border-top: 70px solid #6D2335;
+}
+.send-subit{
+	width: 400px;
+	height: 70px;
+	background-color: #202020;
+	position: absolute;
+	right: 0px;
+}
+.send{
+	position: relative;
+	top: 13px;
+	left: 170px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #00E5FF;
+	width: 107px;
+	height: 44px;
+	border-radius: 18px;
+	transition: 1s;
+}
+.send:hover{
+	background-color: #fff;
+	color: #00E5FF;
+	border: 3px solid #00D2E9;
+	transition: 1s;
+}
+.nav-bar{
+	display: flex;
+}
+.logo img{
+	padding-left: 10px;
+	padding-top: 4px;
+}
+.sim{
+	height: 60px;
+	width: 68px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+	padding-right: 5%;
+	padding-top: 1%;
+}
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 50px;
+	font-size: 25px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0;
+	height: 2px;
+	background: #fff;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+	
+}
+.nav-links ul li:hover{
+	text-shadow: -2px -2px 10px #5d1c2c;
+	transition: .5s;
+}
+.nav-links ul a{
+	color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.recent{
+	text-shadow: 0 0 20px #fff;
+}
+.type{
+	width: 700px;
+	height: 150px;
+	margin-top: 10%;
+	margin-left: 10%;
+	color: #fff;
+	text-align: justify;
+}
+.send{
+	
+}
+.bottom-bar{
+	width: 28px;
+	height: 90px;
+	/*background-color: red;*/
+	padding-top: 15px;
+	position: fixed;
+	transition: 0.9s;
+}
+.bottom-bar img{
+	padding: 15px 0px 0px 15px;
+}
+.bottom-bar-rectangle{
+	width: 73px;
+	height: 172px;
+	background-color: white;
+	margin-top: 738px;
+	border-top-right-radius: 200px;
+	position: fixed;
+}
+/*.bottom-bar-rectangle:hover{
+	box-shadow: -10px -10px 80px white;
+	transition: .9s;
+}*/
+.bottom-bar-rectangle::after{
+	content: '';
+	width: 73px;
+	height: 172px;
+	background: #fff;
+	display: block;
+	transition: .9s;
+	border-top-right-radius: 200px;
+	box-shadow: 0px 0px 0px white;
+}
+.bottom-bar-rectangle:hover::after{
+	box-shadow: -10px -10px 80px #ffffff9c;
+}
